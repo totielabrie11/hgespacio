@@ -19,3 +19,5 @@ window.onload = () => {
         document.querySelector(`#${sectionId}`).scrollIntoView({ block: 'start', behavior: 'smooth'});
       })
     })}
+
+$('h3').hide().show(3000)
