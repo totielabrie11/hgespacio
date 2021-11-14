@@ -20,4 +20,20 @@ window.onload = () => {
       })
     })}
 
-$('h3').hide().show(3000)
+
+//Activacion del carousel
+document.addEventListener('DOMContentLoaded', ()=>{
+  const elementosCarousel = document.querySelectorAll('.carousel')
+  M.Carousel.init(elementosCarousel, {
+      duration: 1000,
+      dist: -80,
+      shift: 10,
+      padding: 5,
+      numVisible: 6,
+      indicators: true,
+      noWrap: true
+
+  });
+});
+
+
