@@ -14,13 +14,23 @@
 </head>
 <body>
     <nav class="navigation">
-        <ul class="nav">
+        <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><img src="multimedia/img/hambur.png" width="20%" style="margin-top: 10px;" alt=""></a>
+            <ul class="nav hide-on-med-and-down">
+                <li class="nav-item home active"><img src="multimedia/img/logo_hg-removebg-preview.png" alt="" width="30%"></li>
+                <li class="nav-item grilla">GRILLA HORARIOS</li>
+                <li class="nav-item mis-proyectos">NUESTROS PROFESORES</li>
+                <li class="nav-item footer">CONTACTO</li>
+            </ul>
+        </div>
+    </nav>
+        <ul class="sidenav" id="mobile-demo">
             <li class="nav-item home active"><img src="multimedia/img/logo_hg-removebg-preview.png" alt="" width="30%"></li>
             <li class="nav-item grilla">GRILLA HORARIOS</li>
             <li class="nav-item mis-proyectos">NUESTROS PROFESORES</li>
             <li class="nav-item footer">CONTACTO</li>
         </ul>
-    </nav>
+
     <main id="home" class="content">
         <div>
             <div style="width: 100px; height: 100px;">
@@ -176,6 +186,10 @@
                     </tr>
                     <tr>
                         <td>19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>DANZA JAZZ</td>
                     </tr>
                     <tr>
                         <td>20:00</td>
@@ -200,11 +214,14 @@
     </section>    
     <footer id="footer" class="content">
         <div class="row container">
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.3422841175293!2d-58.58430578476728!3d-34.72176568042908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5dc6434bc67%3A0x520dfbba2de7d0a8!2sJorge%20Newbery%20635%2C%20B1765BAM%20Isidro%20Casanova%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636830392780!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="col-md-6 col-12"></iframe>    
-            
             <div>
-                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.3422841175293!2d-58.58430578476728!3d-34.72176568042908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5dc6434bc67%3A0x520dfbba2de7d0a8!2sJorge%20Newbery%20635%2C%20B1765BAM%20Isidro%20Casanova%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636830392780!5m2!1ses-419!2sar" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="col s6"></iframe>
+            </div>
+            <div class="form formulario col s6">
+                soy un formulario
+            </div>
+            <div class="col s6 container contacto-container">
+                <div class="col">
                     <h3>Juan Horisberger (Director)</h3>
                     <ul>
                         <li>Telefono: 1540763958</li>
@@ -213,7 +230,7 @@
                         <img src="multimedia/img/instagram-removebg-preview.png" width="20%" alt="">
                     </ul>
                 </div>
-                <div>
+                <div class="col">
                     <h3>Cintia Mendez (community)</h3>
                     <ul>
                         <li>Telefono: 1551363373</li>
