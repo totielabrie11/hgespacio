@@ -40,47 +40,86 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 });
-    
+
 
 //funcion para levantar el evento de cada cards y ejecute una funcion para cada una
+
+
+
+
 function pintarDomJazz() {
-  console.log("estoy entrando en la funcion que pinta el calendario en Jazz")
+
+  $( "#griVisual13" ).addClass( "pintarGrilla" );
+  $( "#griVisual14" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomRegeton() {
-  console.log("estoy entrando en la funcion que pinta el calendario en regeton")
+  
+  $( "#griVisual6" ).addClass( "pintarGrilla" );
+  $( "#griVisual7" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomKpop() {
-  console.log("estoy entrando en la funcion que pinta el calendario en Kpop")
+  
+  $( "#griVisual15" ).addClass( "pintarGrilla" );
+  $( "#griVisual16" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomRock() {
-  console.log("estoy entrando en la funcion que pinta el calendario en rock")
+  
+  $( "#griVisual17" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomKickBM() {
-  console.log("estoy entrando en la funcion que pinta el calendario en kickBoxing")
+
+  $( "#griVisual18" ).addClass( "pintarGrilla" );
+  $( "#griVisual19" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomKickBF() {
-  console.log("estoy entrando en la funcion que pinta el calendario en kickBoxingFemm")
+ 
+  $( "#griVisual18" ).addClass( "pintarGrilla" );
+  $( "#griVisual19" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomTaeK() {
-  console.log("estoy entrando en la funcion que pinta el calendario en Tae Kwondo")
+  
+  $( "#griVisual20" ).addClass( "pintarGrilla" );
+  $( "#griVisual21" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomLocalizada() {
-  console.log("estoy entrando en la funcion que pinta el calendario en localizada")
+  
+  $( "#griVisual8" ).addClass( "pintarGrilla" );
+  $( "#griVisual9" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomAerobox() {
-  console.log("estoy entrando en la funcion que pinta el calendario en AeroBox")
+  
+  $( "#griVisual10" ).addClass( "pintarGrilla" );
+  $( "#griVisual11" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomZumba() {
-  console.log("estoy entrando en la funcion que pinta el calendario en zumba")
+  
+  $( "#griVisual12" ).addClass( "pintarGrilla" );
+
 }
 function pintarDomYoga() {
-  console.log("estoy entrando en la funcion que pinta el calendario en yoga")
+  $( "#griVisual5" ).addClass( "pintarGrilla" );
 }
 function pintarDomVisuales() {
-  console.log("estoy entrando en la funcion que pinta el calendario en artes visuales")
-}
 
-window.onload = function(){
+  $( "#griVisual1" ).addClass( "pintarGrilla" );
+  $( "#griVisual2" ).addClass( "pintarGrilla" );
+  $( "#griVisual3" ).addClass( "pintarGrilla" );
+  $( "#griVisual4" ).addClass( "pintarGrilla" );
+
+};
+
+
+
+
   const cardJ = document.getElementById("jazz");
   const cardR = document.getElementById("regeton");
   const cardK = document.getElementById("kpop");
@@ -106,7 +145,4 @@ window.onload = function(){
   zumba.onclick = pintarDomZumba
   yoga.onclick = pintarDomYoga
   visuales.onclick = pintarDomVisuales
-}
-
-
 
