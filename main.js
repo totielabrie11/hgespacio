@@ -45,70 +45,95 @@ document.addEventListener('DOMContentLoaded', function() {
 //funcion para levantar el evento de cada cards y ejecute una funcion para cada una
 
 
-
+$("tr td").removeClass("pintarGrilla")
 
 function pintarDomJazz() {
+
+  $("tr td").removeClass("pintarGrilla")
 
   $( "#griVisual13" ).addClass( "pintarGrilla" );
   $( "#griVisual14" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomRegeton() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual6" ).addClass( "pintarGrilla" );
   $( "#griVisual7" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomKpop() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual15" ).addClass( "pintarGrilla" );
   $( "#griVisual16" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomRock() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual17" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomKickBM() {
 
+  $("tr td").removeClass("pintarGrilla")
+
   $( "#griVisual18" ).addClass( "pintarGrilla" );
   $( "#griVisual19" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomKickBF() {
+
+  $("tr td").removeClass("pintarGrilla")
  
   $( "#griVisual18" ).addClass( "pintarGrilla" );
   $( "#griVisual19" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomTaeK() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual20" ).addClass( "pintarGrilla" );
   $( "#griVisual21" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomLocalizada() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual8" ).addClass( "pintarGrilla" );
   $( "#griVisual9" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomAerobox() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual10" ).addClass( "pintarGrilla" );
   $( "#griVisual11" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomZumba() {
+
+  $("tr td").removeClass("pintarGrilla")
   
   $( "#griVisual12" ).addClass( "pintarGrilla" );
 
 }
 function pintarDomYoga() {
+
+  $("tr td").removeClass("pintarGrilla")
+
   $( "#griVisual5" ).addClass( "pintarGrilla" );
 }
 function pintarDomVisuales() {
+
+  $("tr td").removeClass("pintarGrilla")
 
   $( "#griVisual1" ).addClass( "pintarGrilla" );
   $( "#griVisual2" ).addClass( "pintarGrilla" );
