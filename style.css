@@ -51,10 +51,11 @@
     min-height: 100vh;
     background-image: linear-gradient(-45deg, #ffbf5f 50%, #000 50%);
     font-family: 'Raleway', sans-serif;    
-}section {
-    background-color: rgb(194, 154, 103);
 }section#grilla {
     background-color: #6a6ae4;
+}section {
+    background-color: rgb(194, 154, 103);
+    height: 100%;
 }footer {
     background-color: rgb(88, 88, 88);
 }
@@ -150,7 +151,9 @@ table.highlight>tbody>tr:hover {
     background-color: #ffed54;     /* whatever color you want */
 }
 table.highlight>tbody>tr {
-    color: rgb(3, 119, 109);                                     /* whatever color you want */
+    color: rgb(158, 60, 60);
+
+    font-weight: bold;                                     /* whatever color you want */
 }
 
 
@@ -190,9 +193,19 @@ table.highlight>tbody>tr {
 }
 
 .pintarGrilla {
-    background-color: #c8dca2
+    background-image: linear-gradient(-45deg, #ffbf5f 50%, #000 50%);
     
 }
-.fondos {
-    background-color: rgb(109, 29, 29);
+
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-image{
+    width: 280px;
+    height: 280px;
+    margin-top: 4px;
+    margin-right: 4px;
 }

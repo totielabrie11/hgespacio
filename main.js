@@ -171,3 +171,4 @@ function pintarDomVisuales() {
   yoga.onclick = pintarDomYoga
   visuales.onclick = pintarDomVisuales
 
+ 
