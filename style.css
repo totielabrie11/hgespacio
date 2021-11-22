@@ -54,8 +54,10 @@
     min-height: 100vh;
     background-image: linear-gradient(-45deg, #ffbf5f 50%, #000 50%);
     font-family: 'Raleway', sans-serif;    
+    height: 100%;
 }section#grilla {
     background-color: #6a6ae4;
+    height: 100%;
 }section {
     background-color: rgb(194, 154, 103);
     height: 100%;
@@ -75,6 +77,10 @@ h3 {
     left: 0;
     z-index: -1;
     
+}
+
+.table-container {
+    background-color: #ffbf5f;
 }
 
 /* ESTILOS DEL CAROUSEL */
