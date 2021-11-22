@@ -21,6 +21,9 @@
     position: fixed;
     width: 100%;
     height: auto;
+}a i{
+    color: black;
+
 }.nav {
     display:flex;
     flex-wrap: nowrap;
