@@ -63,6 +63,7 @@
     height: 100%;
 }footer {
     background-color: rgb(88, 88, 88);
+    height: 100%;
 }
 
 h3 {
@@ -181,13 +182,6 @@ table.highlight>tbody>tr {
     .container {
       width: 90%;
     }
-  }
-
-  .contacto-container {
-    display: flex;
-    text-align: center;
-    height: auto;
-    align-items: end;   
   }
 
   .formulario {
